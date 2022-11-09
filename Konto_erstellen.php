@@ -60,15 +60,12 @@ mysqli_close($conn);
         transform: translate(0px,740px);
         font-size: large;
         position: absolute;
-        
     }
     .mystyle2{
         margin: 0;
         color:red;
         transform: translate(0px,740px);
         font-size: large;
-        
-        
     }}
    
      @media only screen and (min-width: 400px) {

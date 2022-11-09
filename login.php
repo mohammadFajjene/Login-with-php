@@ -47,11 +47,9 @@ mysqli_close($conn);
     margin: 0%;
     position: absolute;
     color:red;
-    letter-spacing: 1px;
     top: 77%;
     left: 35%;
     transform: translate(-50%, 0%); 
-    
      
     }}
  @media only screen and (min-width: 600px) {
@@ -60,7 +58,7 @@ mysqli_close($conn);
     margin: 0%;
     position: absolute;
     color:red;
-    letter-spacing: 1px;
+  
     top: 50%;
     left: 51%;
     transform: translate(-50%, 0%); 
@@ -74,7 +72,7 @@ mysqli_close($conn);
     margin: 0%;
     position: absolute;
     color:red;
-    letter-spacing: 1px;
+    
     top: 50%;
     left: 51%;
     transform: translate(-50%, 0%); 
