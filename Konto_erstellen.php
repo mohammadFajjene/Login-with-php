@@ -1,22 +1,7 @@
 <?php
- $host ='localhost';
- $username ='root';
- $password ='';
- $dbname ='test1';
- 
+ include_once("connection.php");
 
 
- $conn= mysqli_connect( 'localhost' , 'root' , '' , 'teilnehmer');
-
-
- if (!$conn) {
-     echo mysqli_connect_error("false Verbindung") .mysqli_connect_errno();
-    #die("connection error:"'. mysqli_connect_error()');
-     # code...
- }
-
-  
-  
 
  if (isset($_POST['submit'])) {
      
@@ -39,7 +24,7 @@
      $rs = mysqli_query($conn, $sql);
 
         if ($rs) {
-            echo "<center><p class='mystyle1'>Successfuly.Jetzt können Sie Anmelden<br></p></center>";
+            echo "<center class='mystyle1'>Successfuly.Jetzt können Sie Anmelden<br></center>";
       
         }else {
            echo "error:".$sql."<br>".mysqli_error($conn);}
@@ -59,7 +44,7 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,740px);
         font-size: large;
-        position: absolute;
+        
     }
     .mystyle2{
         margin: 0;
@@ -74,7 +59,6 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,780px);
         font-size: large;
-        position: absolute;
         
     }
     .mystyle2{
@@ -91,7 +75,7 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,700px);
         font-size: large;
-        position: absolute;
+        
         
     }
     .mystyle2{
@@ -108,7 +92,7 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,750px);
         font-size: large;
-        position: absolute;
+      
         
     }
     .mystyle2{
@@ -125,7 +109,6 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,800px);
         font-size: large;
-        position: absolute;
         
     }
     .mystyle2{
@@ -142,7 +125,7 @@ mysqli_close($conn);
         color:green;
         transform: translate(0px,730px);
         font-size: large;
-        position: absolute;
+       
         
     }
     .mystyle2{
