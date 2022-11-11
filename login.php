@@ -20,11 +20,9 @@ if ($test>0) {
    }else{
     echo "<p class='mystyle'>kein Konto mit diesem E-Mail</p>" ; "";
    }
-
 }
 
 mysqli_close($conn);
-
 
 ?>
 <style>
@@ -63,8 +61,6 @@ mysqli_close($conn);
     top: 50%;
     left: 51%;
     transform: translate(-50%, 0%); 
-    
-     
      
     }}
 @media only screen and (min-width: 992px) {
