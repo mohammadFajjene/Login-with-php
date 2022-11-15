@@ -128,7 +128,7 @@ mysqli_close($conn);
             
             if (email=="") {
                 document.getElementById("alert").innerHTML="Bitte E-Mail Adresse eingeben";
-                document.getElementById("alert").style.color="red";
+                document.getElementById("alert").style.color="red";   
                 document.getElementById("alert").style.fontFamily='poppins', sans-serif;
             }
             if (pass=="") {
